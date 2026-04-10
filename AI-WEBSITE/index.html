@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recommendations | Zenith UX</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background Elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <header class="glass-header">
+        <div class="header-content">
+            <div class="logo">Zenith<span>AI</span></div>
+            <nav class="header-nav">
+                <a href="#" class="active">Discover</a>
+                <a href="#">Collections</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero & Search Section -->
+        <section class="hero-section">
+            <h1 class="gradient-text">Unveil Your Signature Style.</h1>
+            <p class="hero-subtitle">Enter your identifier (e.g. U1, U2, U3) to witness our neural engine curate your perfect collection.</p>
+            
+            <div class="search-glass-container">
+                <div class="input-glow"></div>
+                <div class="input-wrapper">
+                    <input type="text" id="userIdInput" placeholder="User ID" autocomplete="off">
+                    <button id="getRecBtn" class="btn-glow">
+                        <span>Discover</span>
+                        <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="toastContainer" class="toast hidden"></div>
+        </section>
+
+        <!-- Skeleton / Loading State -->
+        <section class="loading-state hidden" id="loadingState">
+            <div class="loader-pulse"></div>
+            <p>Synthesizing insights...</p>
+            <div class="skeleton-grid">
+                <div class="skeleton-card glass-panel"></div>
+                <div class="skeleton-card glass-panel"></div>
+                <div class="skeleton-card glass-panel"></div>
+                <div class="skeleton-card glass-panel"></div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-fade hidden" id="resultsSection">
+            <div class="results-header">
+                <h2>Curated For You</h2>
+                <div class="ai-badge">
+                    <span class="pulse-dot"></span> Powered by AI
+                </div>
+            </div>
+            <div class="rec-grid" id="recommendationGrid">
+                <!-- Javascript injects cards here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>&copy; 2026 Zenith E-Commerce. Intelligent curation.</p>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
