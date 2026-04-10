@@ -1,0 +1,31 @@
+user_id,product_id,product_name,category,rating
+U1,P1,Wireless Earbuds,Electronics,5
+U1,P2,Gaming Mouse,Electronics,4
+U1,P3,Mechanical Keyboard,Electronics,5
+U1,P8,Clean Code,Books,4
+U1,P12,Smart Watch,Electronics,5
+U2,P7,The Great Gatsby,Books,5
+U2,P9,1984,Books,5
+U2,P10,Coffee Maker,Home,4
+U2,P11,Desk Lamp,Home,4
+U2,P14,Throw Blanket,Home,3
+U3,P4,Graphic T-Shirt,Clothing,5
+U3,P5,Denim Jacket,Clothing,4
+U3,P6,Running Shoes,Clothing,5
+U3,P12,Smart Watch,Electronics,4
+U3,P1,Wireless Earbuds,Electronics,3
+U4,P1,Wireless Earbuds,Electronics,4
+U4,P3,Mechanical Keyboard,Electronics,4
+U4,P8,Clean Code,Books,5
+U4,P10,Coffee Maker,Home,5
+U4,P15,Cookware Set,Home,4
+U5,P12,Smart Watch,Electronics,5
+U5,P13,Bluetooth Speaker,Electronics,4
+U5,P2,Gaming Mouse,Electronics,5
+U5,P10,Coffee Maker,Home,4
+U5,P11,Desk Lamp,Home,5
+U6,P1,Wireless Earbuds,Electronics,5
+U6,P2,Gaming Mouse,Electronics,5
+U6,P12,Smart Watch,Electronics,4
+U6,P13,Bluetooth Speaker,Electronics,5
+U6,P8,Clean Code,Books,4
