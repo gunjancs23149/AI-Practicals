@@ -1,1 +1,1 @@
-# AI-WEBSITE
+# AI Practicals
